@@ -4,6 +4,8 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
+/*Image credit to @yoceyy on Pinterest*/
+/*Add background picture that covers screen and add a space border*/
 .container{
     width: 100%;
     height: 100vh;
@@ -22,6 +24,7 @@
     align-items: center;
 }
 
+/*Logo sizing*/
 .logo{
     width: 80px;
 }
@@ -31,31 +34,45 @@ nav{
     text-align: right;
 }
 
+/*Make header navigation links inline*/
 nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 60px;
 }
 
-
+/*Make header navigation links white*/
 nav ul li a{
     text-decoration: none;
     color: #fff;
 }
 
+/*Change color, position and size of items in main*/
 .main{
     display: flex;
-    margin-left: 80px;
+    text-align: center;
 }
 
 h2{
     color: #136630;
     font-size: 30px;
+    text-align: center;
 }
 
 p{
     color: #0b421e;
     font-size: 16px;
+    text-align: center;
+}
+
+p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Resizing images and font, changing color, aligning text, aligning images*/
+.under{
+    text-align: center;
 }
 
 .firstimage{
@@ -85,5 +102,25 @@ p{
 
 .underimg2{
     color: #136630;
-    text-align: left;    
+    text-align: left;   
+}
+
+p{
+    font-size: 18px;
+}
+
+.aimg1{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cimg1{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
